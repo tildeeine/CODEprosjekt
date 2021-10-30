@@ -1,0 +1,62 @@
+<Extensions>
+  <Version>1.8</Version>
+  <Panel>
+    <Order>1</Order>
+    <PanelId>learnPanel</PanelId>
+    <Origin>local</Origin>
+    <Type>Home</Type>
+    <Icon>Camera</Icon>
+    <Color>#1D805F</Color>
+    <Name>Group 4</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Which mode are you joining?</Name>
+      <Row>
+        <Name>Row</Name>
+        <Widget>
+          <WidgetId>onsiteStudent</WidgetId>
+          <Name>Onsite student</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>offsiteStudent</WidgetId>
+          <Name>Offsite student</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>professor</WidgetId>
+          <Name>Professor/TA</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options>hideRowNames=1</Options>
+    </Page>
+  </Panel>
+  <Panel>
+    <Order>2</Order>
+    <PanelId>webapp-2</PanelId>
+    <Origin>local</Origin>
+    <Type>Statusbar</Type>
+    <Icon>Custom</Icon>
+    <Name>Magic</Name>
+    <ActivityType>WebApp</ActivityType>
+    <ActivityData>https://kyberheimen.com/fluid</ActivityData>
+    <CustomIcon>
+      <Content/>
+      <Id>d4ac84393c9218b94cc794fdd95d207adca5c7b8365f66a2aa3280e6172fde29</Id>
+    </CustomIcon>
+  </Panel>
+  <Panel>
+    <Order>3</Order>
+    <PanelId>webapp-1</PanelId>
+    <Origin>local</Origin>
+    <Type>Statusbar</Type>
+    <Icon>Custom</Icon>
+    <Name>Audio</Name>
+    <ActivityType>WebApp</ActivityType>
+    <ActivityData>http://kyberheimen.com/audiodemo/</ActivityData>
+  </Panel>
+</Extensions>
